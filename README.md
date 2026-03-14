@@ -129,6 +129,9 @@ changelog-ai --from v0.1.0 --prepend CHANGELOG.md
 - [standup-ai](https://github.com/faw21/standup-ai) — daily standup from git commits
 - [changelog-ai](https://github.com/faw21/changelog-ai) — AI-generated CHANGELOG
 - [chronicle](https://github.com/faw21/chronicle) — AI git history narrator
+- [testfix](https://github.com/faw21/testfix) — AI test fixer — automatically fix failing tests
+
+- [mergefix](https://github.com/faw21/mergefix) — AI merge conflict resolver: fix all conflicts with one command
 
 ## License
 
