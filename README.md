@@ -96,18 +96,19 @@ standup-ai ~/projects/myapp
 critiq                          # AI review of staged changes
 difftests --staged              # generate tests for what you just wrote
 pytest tests/                   # run them
+testfix pytest                  # 3. Auto-fix failing tests
 
-# 3. Generate conventional commit message
+# 4. Generate conventional commit message
 gpr --commit-run
 
-# 4. Generate PR description
+# 5. Generate PR description
 gpr
 
-# 5. Review a teammate's PR (also generate tests for their changes)
+# 6. Review a teammate's PR (also generate tests for their changes)
 difftests --diff main --output tests/
 prcat 42
 
-# 6. At release: generate CHANGELOG
+# 7. At release: generate CHANGELOG
 changelog-ai --from v0.1.0 --prepend CHANGELOG.md
 ```
 
@@ -129,7 +130,7 @@ changelog-ai --from v0.1.0 --prepend CHANGELOG.md
 - [standup-ai](https://github.com/faw21/standup-ai) — daily standup from git commits
 - [changelog-ai](https://github.com/faw21/changelog-ai) — AI-generated CHANGELOG
 - [chronicle](https://github.com/faw21/chronicle) — AI git history narrator
-- [testfix](https://github.com/faw21/testfix) — AI test fixer — automatically fix failing tests
+- [testfix](https://github.com/faw21/testfix) — AI failing test auto-fixer
 
 - [mergefix](https://github.com/faw21/mergefix) — AI merge conflict resolver: fix all conflicts with one command
 
