@@ -1,5 +1,9 @@
 # difftests
 
+[![PyPI version](https://img.shields.io/pypi/v/difftests.svg)](https://pypi.org/project/difftests/)
+[![Python](https://img.shields.io/pypi/pyversions/difftests.svg)](https://pypi.org/project/difftests/)
+[![Tests](https://github.com/faw21/difftests/actions/workflows/tests.yml/badge.svg)](https://github.com/faw21/difftests/actions/workflows/tests.yml)
+
 **AI test generator from git diffs — write tests for what you just changed.**
 
 Stop writing tests from scratch. `difftests` analyzes your git diff and generates
